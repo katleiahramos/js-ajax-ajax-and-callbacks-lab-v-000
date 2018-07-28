@@ -28,7 +28,7 @@ function displayResult(result) {
      <h3>name: ${result.full_name}</h3>
      <p>url: ${result.html_url}</p>
      <p>owner: ${result.owner.login}</p>
-     <p><a href="#" data-url="${result.url}" onclick="showCommits(this);return false;">See Commits</a></p>
+     <p><a href="#" data-repository="${result.name}" data-owner="${result.owner.login}" onclick="showCommits(this)">Show Commits</a></p>
   </div>`)
 }
 
