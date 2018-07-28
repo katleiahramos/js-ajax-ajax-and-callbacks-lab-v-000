@@ -17,3 +17,7 @@ function displayResults(result) {
   // result is an array of JSON
 
 }
+
+function displayResult() {
+
+}
