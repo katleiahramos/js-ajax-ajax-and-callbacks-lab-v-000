@@ -17,7 +17,7 @@ function displayResults(results) {
   // result is an array of JSON
 
   const renderedResults = results.items.map(result => displayResult(result))
-  $(#results).html(renderedResults)
+  $('#results').html(renderedResults)
 }
 
 function displayResult(result) {
