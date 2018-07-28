@@ -9,7 +9,7 @@ function displayError() {
 function searchRepositories() {
   // queries the GitHub repository search API
   const searchTerms = $('#searchTerms').val()
-  debugger
+
   $.get(`https://api.github.com/search/repositories?q=${searchTerms}`, result => displayResults(result))
 }
 
