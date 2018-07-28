@@ -22,7 +22,7 @@ function displayResults(results) {
 
 function displayResult(result) {
   // return html with string interpolated attrs
-
+    debugger
   return (
   `<div id="result">
      <h3>name: ${result.full_name}</h3>
@@ -38,7 +38,7 @@ function showCommits(el) {
 }
 
 function renderCommits(commits) {
-  debugger
+
   const renderedCommits = commits.items.map(commit => renderCommit(commit))
 }
 
