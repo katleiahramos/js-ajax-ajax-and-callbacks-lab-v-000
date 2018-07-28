@@ -14,5 +14,5 @@ function searchRepositories() {
 }
 
 function displayResults(result) {
-  debugger
+  // result is an array of JSON
 }
