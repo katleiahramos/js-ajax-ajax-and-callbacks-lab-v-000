@@ -20,5 +20,8 @@ function displayResults(results) {
 
 function displayResult(result) {
   // return html with string interpolated attrs
-  return ''
+  return
+  `<div id="result">
+    <h3>${result.full_name}</h3>
+  </div>`
 }
