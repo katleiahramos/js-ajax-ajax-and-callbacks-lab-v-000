@@ -40,7 +40,7 @@ function showCommits(el) {
 function renderCommits(commits) {
 
   const renderedCommits = commits.map(commit => renderCommit(commit))
-  debugger
+
 }
 
 function renderCommit(commit) {
