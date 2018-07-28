@@ -29,3 +29,7 @@ function displayResult(result) {
      <p>owner: ${result.owner.login}</p>
   </div>`)
 }
+
+function showCommits() {
+
+}
