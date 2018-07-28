@@ -40,13 +40,12 @@ function showCommits(el) {
 function renderCommits(commits) {
 
   const renderedCommits = commits.map(commit => renderCommit(commit))
-  debugger
+
 }
 
 function renderCommit(commit) {
-
+  debugger
   return(
-
     `<li>${commit.sha} - ${commit.author.login} - <img src="${commit.author.avatar_url}" width="100px" height="100px"></li>`
   )
 }
