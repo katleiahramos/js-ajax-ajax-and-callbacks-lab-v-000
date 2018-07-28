@@ -13,6 +13,6 @@ function searchRepositories() {
   $.get(`https://api.github.com/search/repositories?q=${searchTerms}`, result => displayResults(result))
 }
 
-function displayResults() {
+function displayResults(result) {
   debugger
 }
