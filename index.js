@@ -16,7 +16,7 @@ function searchRepositories() {
 function displayResults(results) {
   // result is an array of JSON
 
-  const renderedResults = results.items.map(result => displayResult(result))
+  const renderedResults = results.items.map(result => return displayResult(result))
 
   // $(#results).html()
 }
