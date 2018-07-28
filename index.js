@@ -10,7 +10,7 @@ function searchRepositories() {
   // queries the GitHub repository search API
   const searchTerms = $('#searchTerms').val()
 
-  $.get(`https://api.github.com/search/repositories?q=${searchTerms}`, results => displayResults(results))
+  $.get(`https://api.github.com/search/repositories?q=${searchTerms}`, results => displayResults(results)).fail(error => displayError())
 }
 
 function displayResults(results) {
