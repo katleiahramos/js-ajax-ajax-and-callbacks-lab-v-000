@@ -33,5 +33,5 @@ function displayResult(result) {
 }
 
 function showCommits(el) {
-  debugger
+  $.get(`${el.dataset.url}/commits`)
 }
