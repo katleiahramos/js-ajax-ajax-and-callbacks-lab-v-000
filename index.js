@@ -22,7 +22,6 @@ function displayResults(results) {
 
 function displayResult(result) {
   // return html with string interpolated attrs
-  debugger
   return
   `<div id="result">
     name: <h3>${result.full_name}</h3>
