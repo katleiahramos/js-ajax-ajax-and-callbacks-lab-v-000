@@ -27,6 +27,7 @@ function displayResult(result) {
      <h3>name: ${result.full_name}</h3>
      <p>url: ${result.html_url}</p>
      <p>owner: ${result.owner.login}</p>
+
   </div>`)
 }
 
