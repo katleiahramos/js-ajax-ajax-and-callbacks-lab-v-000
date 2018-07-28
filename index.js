@@ -41,7 +41,8 @@ function renderCommits(commits) {
 }
 
 function renderCommit(commit) {
-  return(
-
-  )
+  debugger
+  // return(
+  //
+  // )
 }
