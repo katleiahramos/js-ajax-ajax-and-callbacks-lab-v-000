@@ -34,7 +34,7 @@ function displayResult(result) {
 
 function showCommits(el) {
 
-  $.get(`https://api.github.com/repos/${el.dataset.owner}/${el.dataset.repository}/commits`, commits => renderCommits(commits))
+  $.get(`https://api.github.com/repos/${el.dataset.owner}/${el.dataset.repository}/commits`, commits => renderCommits(commits)).fail(error => displayError())
 }
 
 function renderCommits(commits) {
