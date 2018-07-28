@@ -24,8 +24,8 @@ function displayResult(result) {
   // return html with string interpolated attrs
   return (
   `<div id="result">
-    name: <h3>${result.full_name}</h3>
-    url: <p>${result.html_url}</p>
-    owner: <p>${result.owner.login}</p>
+     <h3>name: ${result.full_name}</h3>
+     <p>url: ${result.html_url}</p>
+     <p>owner: ${result.owner.login}</p>
   </div>`)
 }
