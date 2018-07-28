@@ -13,11 +13,12 @@ function searchRepositories() {
   $.get(`https://api.github.com/search/repositories?q=${searchTerms}`, results => displayResults(results))
 }
 
-function displayResults(result) {
+function displayResults(results) {
   // result is an array of JSON
 
 }
 
 function displayResult(result) {
-
+  // return html with string interpolated attrs
+  return ''
 }
