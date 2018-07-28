@@ -23,5 +23,6 @@ function displayResult(result) {
   return
   `<div id="result">
     <h3>${result.full_name}</h3>
+    <p>${result.html_url}</p>
   </div>`
 }
