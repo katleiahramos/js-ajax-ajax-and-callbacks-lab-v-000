@@ -8,3 +8,7 @@ function searchRepositories() {
   const searchTerms = $('#searchTerms').val()
 
 }
+
+function displayError() {
+  $('#errors').html("There was an error. Please try again.")
+}
