@@ -42,6 +42,6 @@ function renderCommits(commits) {
 
 function renderCommit(commit) {
   return(
-    `<li></li>`
+
   )
 }
