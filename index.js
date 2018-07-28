@@ -39,3 +39,7 @@ function showCommits(el) {
 function renderCommits(commits) {
   const renderedCommits = commits.items.map(commit => renderCommit(commit))
 }
+
+function renderCommit(commit) {
+
+}
