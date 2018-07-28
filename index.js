@@ -33,5 +33,5 @@ function displayResult(result) {
 }
 
 function showCommits() {
-
+  debugger
 }
