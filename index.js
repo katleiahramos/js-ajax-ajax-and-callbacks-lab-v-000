@@ -14,5 +14,5 @@ function searchRepositories() {
 }
 
 function displayResults() {
-
+  debugger
 }
