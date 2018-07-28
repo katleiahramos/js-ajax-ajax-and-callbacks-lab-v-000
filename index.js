@@ -40,7 +40,7 @@ function showCommits(el) {
 function renderCommits(commits) {
 
   const renderedCommits = commits.map(commit => renderCommit(commit))
-  return `<ul>${renderedCommits}</ul>`
+  $.get("#details").html(`<ul>${renderedCommits}</ul>`)
 }
 
 function renderCommit(commit) {
