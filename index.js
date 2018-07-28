@@ -3,7 +3,7 @@ $(document).ready(function (){
 });
 
 
-function searchRepositories(searchTerms) {
+function searchRepositories() {
   // queries the GitHub repository search API
   debugger
 }
