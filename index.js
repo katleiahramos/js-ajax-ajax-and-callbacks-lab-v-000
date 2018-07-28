@@ -33,6 +33,7 @@ function displayResult(result) {
 }
 
 function showCommits(el) {
+  debugger
   $.get(`${el.dataset.url}/commits`, commits => renderCommits(commits))
 }
 
@@ -41,7 +42,7 @@ function renderCommits(commits) {
 }
 
 function renderCommit(commit) {
-  debugger
+
   // return(
   //
   // )
