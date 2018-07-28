@@ -47,6 +47,6 @@ function renderCommit(commit) {
 
   return(
 
-      `<li>${commit.sha}</li>`
+      `<li>${commit.sha} - ${commit.commit.message}</li>`
   )
 }
