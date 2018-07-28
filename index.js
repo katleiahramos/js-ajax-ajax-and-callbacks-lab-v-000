@@ -32,6 +32,6 @@ function displayResult(result) {
   </div>`)
 }
 
-function showCommits() {
+function showCommits(el) {
   debugger
 }
