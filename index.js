@@ -32,6 +32,6 @@ function displayResult(result) {
   </div>`)
 }
 
-function showCommits(el) {
-  $.get(`${el.dataset.url}/commits`)
+function getCommits(el) {
+  $.get(`${el.dataset.url}/commits`, )
 }
