@@ -45,6 +45,6 @@ function renderCommits(commits) {
 function renderCommit(commit) {
   debugger
   return(
-    `<li>${commit.sha} - ${commit.author.login}</li>`
+    `<li>${commit.sha} - ${commit.author.login} - <img src="${commit.author.avatar_url}"></li>`
   )
 }
