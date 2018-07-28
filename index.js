@@ -18,6 +18,6 @@ function displayResults(result) {
 
 }
 
-function displayResult() {
+function displayResult(result) {
 
 }
